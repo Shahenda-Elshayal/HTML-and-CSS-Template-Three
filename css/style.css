@@ -360,10 +360,12 @@ a {
     border-radius: 100% 50%;
     background-color: #ececec;
     /* background-color: red; */
-    left: -190px;
-    bottom: -40px;
-    z-index: -1;
-} */
+left: -190px;
+bottom: -40px;
+z-index: -1;
+}
+
+*/
 /* end circle */
 
 @media (max-width:991px) {
@@ -1606,6 +1608,10 @@ a {
     background-image: url(../images/stats.jpg);
     background-size: cover;
     position: relative;
+}
+
+.stats .main-heading {
+    font-size: 26px;
 }
 
 .stats::before {
