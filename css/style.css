@@ -1610,9 +1610,12 @@ z-index: -1;
     position: relative;
 }
 
-.stats .main-heading {
-    font-size: 26px;
+@media (max-width:767px) {
+    .stats .main-heading {
+        font-size: 26px;
+    }
 }
+
 
 .stats::before {
     content: '';
